@@ -5,7 +5,7 @@
 
   <title>Store</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="none.css">
+  <!---<link rel="stylesheet" href="none.css">--->
   <script src="main.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,44 +20,71 @@
 
 <body>
 
+  <header>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">WOMEN</a></li>
+        <li><a href="#">MEN</a></li>
+        <li><a href="#">KIDS</a></li>
+      </ul>
+    </nav>
+
+    <img class="logo" src="img/VSF.png" alt="logo">
+
+    <ul class="nav-buttons">
+      <li>
+        <select name="currency" id="currency">
+          <option value="usd">$ USD</option>
+          <option value="eur">€ EUR</option>
+          <option value="jpy">¥ JPY</option>
+        </select>
+      </li>
+      <li><button>CART</button></li>
+
+    </ul>
+
+  </header>
+
 
   <div class="homepage">
 
-    <div class="footer">
 
-      <ul class="nav">
-
-        <li><a href="#women">WOMEN</a></li>
-        <li><a href="#men">MEN</a></li>
-        <li><a href="#kids">KIDS</a></li>
-        <li><button>$</button></li>
-        <li><button>CART</button></li>
-      </ul>
-
-    </div>
 
     <div class="heading">
       <h1 class="category">Category name</h1>
     </div>
 
     <div class="grid">
-      <div id="first-item">
+      <div id="first-item" class="grid-element">
         <img src="img/first-item.png">
+        <h1 class="item-name">Apollo Running Short</h1>
+        <p class="price">50.00$</p>
       </div>
-      <div id="second-item">
+      <div id="second-item" class="grid-element">
         <img src="img/second-item.png">
+        <h1 class="item-name">Apollo Running Short</h1>
+        <p class="price">50.00$</p>
       </div>
-      <div id="third-item">
+      <div id="third-item" class="grid-element">
         <img src="img/third-item.png">
+        <h1 class="item-name">Apollo Running Short</h1>
+        <p class="price">50.00$</p>
       </div>
-      <div id="fourth-item">
-        <img src="img/fourth-item.png"> 
+      <div id="fourth-item" class="grid-element">
+        <img src="img/fourth-item.png">
+        <h1 class="item-name">Apollo Running Short</h1>
+        <p class="price">50.00$</p>
       </div>
-      <div id="fifth-item">
-        <img src="img/fifth-item.png"> 
+      <div id="fifth-item" class="grid-element">
+        <img src="img/fifth-item.png">
+        <h1 class="item-name">Apollo Running Short</h1>
+        <p class="price">50.00$</p>
       </div>
-      <div id="sixth-item">
+      <div id="sixth-item" class="grid-element">
         <img src="img/sixth-item.png">
+        <h1 class="item-name">Apollo Running Short</h1>
+        <p class="price">50.00$</p>
       </div>
     </div>
 
