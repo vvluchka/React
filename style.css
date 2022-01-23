@@ -15,14 +15,15 @@ body{
 
 header{
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 16px;
   position: fixed;
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  width: 1440px;
   height: 80px;
   top: 0; 
 }
