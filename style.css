@@ -59,6 +59,9 @@ ul.nav-links li:hover{
 ul.nav-links li:hover a{
   color:#5ECE7B;
 }
+img.logo {
+  cursor: pointer;
+}
 ul.nav-buttons li button, ul.nav-buttons li select{
   border: none;
   padding: 16px 16px;
