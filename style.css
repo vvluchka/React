@@ -4,16 +4,17 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   max-width: 1440px;
   margin: 0 auto;
 }
+
 .homepage {
-  
+
   position: relative;
 }
 
-header{
+header {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -24,12 +25,12 @@ header{
   align-items: center;
   z-index: 100;
   height: 80px;
-  top: 0; 
+  top: 0;
 }
 
-ul.nav-links{
-  padding : 0;
-  margin: 0px 101px ;
+ul.nav-links {
+  padding: 0;
+  margin: 0px 101px;
 }
 
 ul.nav-links a {
@@ -38,7 +39,7 @@ ul.nav-links a {
 }
 
 
-ul.nav-links li{
+ul.nav-links li {
   padding: 28px 16px 32px 16px;
   color: black;
   text-decoration: none;
@@ -50,28 +51,32 @@ ul.nav-links li{
   line-height: 120%;
 }
 
-ul.nav-links li:hover{
+ul.nav-links li:hover {
   border-bottom: 2px solid #5ECE7B;
   font-weight: 600;
   color: #5ECE7B;
 }
 
-ul.nav-links li:hover a{
-  color:#5ECE7B;
+ul.nav-links li:hover a {
+  color: #5ECE7B;
 }
+
 img.logo {
   cursor: pointer;
 }
-ul.nav-buttons li button, ul.nav-buttons li select{
+
+ul.nav-buttons li button,
+ul.nav-buttons li select {
   border: none;
   padding: 16px 16px;
 }
 
-ul.nav-buttons li{
+ul.nav-buttons li {
   display: inline-block;
   position: relative;
   right: 101px;
 }
+
 .category {
   position: relative;
   width: 100%;
@@ -83,7 +88,7 @@ ul.nav-buttons li{
   font-weight: normal;
   font-size: 42px;
   line-height: 160%;
-  
+
 
 }
 
@@ -112,7 +117,7 @@ ul.nav-buttons li{
   right: 16px;
   bottom: 98px;
   left: 16px;
-  
+
 }
 
 .item-name {
@@ -148,6 +153,6 @@ div.grid-element:hover {
 
   box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
   transition: 0.4s;
-  
-  
+
+
 }
