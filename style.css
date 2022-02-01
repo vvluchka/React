@@ -140,6 +140,7 @@ ul.nav-buttons li {
 }
 
 .grid-element {
+
   transition: 0.7s;
 }
 
@@ -194,6 +195,14 @@ div.item-counter{
   float: right;
   margin-right: 10px;
 }
+
+#count-el{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
 .item-counter-button{
   width: 24px;
   height: 24px;  
@@ -216,7 +225,7 @@ div.cart-item p{
   width: fit-content;
   font-family: Raleway;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 160%;
   margin-bottom: 30px;
@@ -229,7 +238,49 @@ div.size-buttons button{
   margin-right: 8px;
   padding: 0;
   background-color: white;
+  margin-bottom: 52px;
 }
 button.not-available {
   opacity: 20%;
+}
+div.total-price-container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 35px;
+}
+div.cart-menu-buttons{
+  display: flex;
+  justify-content: space-around;
+}
+div.cart-menu-buttons button{
+  width: 140px;
+  height: 43px;
+  border: none;
+
+}
+#check-out{
+  background-color: #5ECE7B;
+  color: white;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+#view-bag{
+  border: 1px solid black;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
 }
