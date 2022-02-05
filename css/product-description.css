@@ -9,63 +9,7 @@ body {
   margin: 0 auto;
 }
 
-div.header {
-  width: 1440px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  height: 80px;
-  margin: 0;
-  background-color: white;
-  z-index: 10;
-}
 
-ul.nav-links {
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin-left: 101px;
-}
-
-ul.nav-links a {
-  padding: 28px 16px 32px 16px;
-  text-decoration: none;
-  color: black;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 120%;
-  background-color: white;
-}
-
-ul.nav-links a:hover {
-  color: #5ECE7B;
-  border-bottom: 2px solid #5ECE7B;
-}
-
-ul.nav-buttons {
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin-right: 101px;
-}
-
-ul.nav-buttons li{
-  padding-left: 22px;
-}
-
-ul.nav-buttons button, ul.nav-buttons select{
-  border: none;
-  padding: 28px 16px 32px 16px;
-}
 
 div.left-images{
   display: flex;
