@@ -6,6 +6,7 @@
   <title>Store</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/cart.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,9 +52,12 @@
 
 
 
-  <div id="cart-menu" class="cart-menu">
-    <div class="container">
-      <p><b>My Bag, </b>2 items</p>
+  <div class="cart-menu">
+    <header class="cart-header">
+      <p class="cart-title"><b>My Bag, </b><span>2</span> items</p>
+    </header>
+
+    <main class="cart-products">
       <div class="cart-item"><img src="img/items/item1.png">
 
         <div class="item-counter">
@@ -73,37 +77,21 @@
 
       </div>
 
+    </main>
 
-      <div class="cart-item">
-        <img src="img/items/item1.png">
-
-
-        <div class="item-counter">
-          <button class="item-counter-button" id="increment" onclick="increment2()">+</button>
-          <div id="count-el-2">1</div>
-          <button class="item-counter-button" id="decrement" onclick="decrement2()">-</button>
-        </div>
-
-        <p>Apollo Running Short</p>
-
-        <div class="cart-item-price">$<span id="second-price">70.00</span></div>
-
-        <div class="size-buttons">
-          <button>S</button>
-          <button class="not-available">M</button>
-        </div>
-      </div>
-
+    <footer class="cart-footer">
       <div class="total-price-container">
         <div>Total</div>
         <div>$<span id="total-price">0.00</span></div>
       </div>
-      <div class="cart-menu-buttons">
-        <button id="view-bag">view bag</button>
-        <button id="check-out">check out</button>
 
+      <div class="cart-menu-buttons">
+        <button class="cart-menu-button view-bag">view bag</button>
+        <button class="cart-menu-button check-out">check out</button>
       </div>
-    </div>
+    </footer>
+
+
   </div>
 
 
